@@ -1,0 +1,222 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 2.143125 y: -2.27541666666667 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 6.111875 -7.48770833333333
+
+2: Axes, 0, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, V, nSt
+Const: 1, Val: 0.878416666666667 0, 0 0.224895833333332
+
+"B", NP: -127, 105, NS: 12, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -2.64583333333333 -3.06916666666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"A", NP: 109, 61, NS: 10, 18
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 2.64583333333333 -2.01083333333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C", NP: 8, 209, NS: 11, 18
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 0.105833333333333 -5.37104166666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+6: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 4
+
+7: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 3
+
+8: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 6 7
+
+9: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 8 3
+
+10: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 9
+
+11: PBiss, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 4
+
+12: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 10 11
+
+13: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 12 3
+
+14: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 13, Val: 0.602501943219617 1.96797098772677
+
+15: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 14
+
+16: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 5
+
+17: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 3
+
+18: Int, 1, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 16 17
+
+19: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 18
+
+20: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 19
+
+21: PBiss, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 5
+
+22: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 20 21
+
+23: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 22 5
+
+24: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 15 23
+
+25: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 24 5
+
+26: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 4
+
+27: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 25 26
+
+28: Pol, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 24 27
+
+29: Area, 2, CN:1, VN:1
+B, W, NbD:130, FD, cm2, GT:0, V, nSt
+Const: 28, Val: 100 77 44609.5, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+30: Text, 2, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 28 29, Val: 100 77 0, nA, nP, TP: 2.64583333333333, -2.03729166666667,TS: 1.85208333333333, -0.47625
+""#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+31: Seg, 0, CN:2, VN:0
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 5
+
+32: Seg, 0, CN:2, VN:0
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 4
+
+33: Seg, 0, CN:2, VN:0
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4
+
+34: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -290 -134 0, nA, nP, TP: -7.67291666666667, 3.54541666666667,TS: 5.159375, -3.86291666666667
+"Para construir el triangulo equilatero:
+Se monta el arco capaz 60º del lado AB, y del lado BC, se halla la interseccion y todo sale -> en el momento en que coloco el primer punto en el primer arco capaz el resto quedan definidos."
+p: 0, System, S: 0 C: 15 Fa: 0
+
+35: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 12 22
+
+36: Slo, 0, CN:1, VN:1
+B, W, NbD:2, FD, WU, GT:0, V, nSt
+Const: 15, Val: -27 3 1.55068, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+37: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 15 36, Val: -27 3 0, nA, nP, TP: -0.714375, -0.079375,TS: 0.79375, -0.47625
+""#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+38: Slo, 0, CN:1, VN:1
+B, W, NbD:2, FD, WU, GT:0, V, nSt
+Const: 35, Val: -24 69 2.45676, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+39: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 35 38, Val: -24 69 0, nA, nP, TP: -0.635, -1.825625,TS: 0.79375, -0.47625
+""#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+40: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: 294 -131 0, nA, nP, TP: 7.77875, 3.46604166666667,TS: 4.33916666666667, -7.24958333333333
+"TESIS:
+Se obtiene area maxima cuando el lado del triangulo es paralelo al  segmento formado por los centros de los arcos capaces.
+Se ha representado en ejes el area del triangulo frente a la diferencia de pendientes de la recta que contiene a B y el segmento formado por los centros de los arcos capaces. Area maxima para diferencia cero -> rectas paralelas"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+41: Formula, 1, CN:2, VN:1
+B, W, NbD:2, nFD, WU, GT:0, V, nSt
+Const: 38 36, Val: 380 288 0.906079, A, P, TP: 10.0541666666667, -7.62,TS: 0.79375, -0.47625
+a - b
+p: 0, System, S: 0 C: 15 Fa: 0
+
+42: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 41, Val: 266 288 0, nA, nP, TP: 7.03791666666667, -7.62,TS: 3.81, -0.47625
+"Diferencia pdtes: "#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+43: Transf, 1, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 2 41
+
+44: Transf, 2, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 2 29
+
+45: Perp, 512, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 44 2
+
+46: Perp, 256, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 43 2
+
+47: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 45 46
+
+48: Locus, 49161, CN:2, VN:50
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 47
+

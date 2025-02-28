@@ -1,0 +1,122 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 2.24895833333333 y: -2.38125 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: 7, -110, NS: 15, 23
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 0.185208333333333 2.301875
+p: 0, Garamond, S: 19 C: 15 Fa: 0
+
+"B", NP: 136, 99, NS: 14, 23
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 3.67770833333333 -2.51354166666667
+p: 0, Garamond, S: 19 C: 15 Fa: 0
+
+"C", NP: -168, 98, NS: 14, 23
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -4.28625 -2.51354166666667
+p: 0, Garamond, S: 19 C: 15 Fa: 0
+
+6: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4 5
+
+"X", NP: 218, 4, NS: 15, 23
+7: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 5.635625 -0.502708333333333
+p: 0, Garamond, S: 19 C: 15 Fa: 0
+
+8: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 7
+
+9: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 4
+
+"D", NP: 354, 98, NS: 17, 23
+10: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 9
+p: 0, Garamond, S: 19 C: 15 Fa: 0
+
+11: Tr, 0, CN:3, VN:0
+Br, W, tT, DS:5 8, GT:0, V, nSt
+Const: 3 7 5
+
+12: Tr, 0, CN:3, VN:0
+R, W, tT, DS:5 8, GT:0, V, nSt
+Const: 3 7 4
+
+13: Seg, 0, CN:2, VN:0
+Br, W, tT, DS:1 1, GT:0, V, nSt
+Const: 5 10
+
+14: Seg, 0, CN:2, VN:0
+R, W, tT, DS:5 8, GT:0, V, nSt
+Const: 10 4
+
+15: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 8
+
+16: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 8
+
+"C'", NP: -52, -138, NS: 17, 23
+17: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 15
+p: 0, Garamond, S: 19 C: 15 Fa: 0
+
+18: Seg, 0, CN:2, VN:0
+Br, W, tT, DS:1 1, GT:0, V, nSt
+Const: 5 17
+
+"B'", NP: 184, -17, NS: 17, 23
+19: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 16
+p: 0, Garamond, S: 19 C: 15 Fa: 0
+
+20: Seg, 0, CN:2, VN:0
+R, W, tT, DS:1 1, GT:0, V, nSt
+Const: 4 19
+
+21: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -239 146 0, nA, nP, TP: -6.32354166666667, -3.86291666666667,TS: 17.065625, -4.31270833333333
+"Como quiera que los triángulos AXC y AXB tienen un lado común, AX,
+entonces la razón entre sus áreas será igual a la de sus alturas 
+respecto del lado común. Por tanto se tendrá: S(AXC)/S(AXB)= CC'/BB'.
+Estas dos alturas determinan dos triángulos rectángulos semejantes, DCC' y DBB' y, por 
+tanto se verificará la igualdad:  CC'/BB'=CD/DB.
+En definitiva:  S(AXC)/S(AXB)= CC'/BB'=CD/DB
+"
+p: 0, Comic Sans MS, S: 16 C: 15 Fa: 0
+
+22: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 17
+
+23: Angle, 0, CN:3, VN:4
+B, W, t, DS:1 1, GT:16, V, nSt
+Const: 5 17 3, Val: 1, 1
+
+24: Angle, 0, CN:3, VN:4
+B, W, t, DS:1 1, GT:16, V, nSt
+Const: 4 19 7, Val: 1, 1
+

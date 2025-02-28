@@ -1,0 +1,144 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: -0.820208333333333 y: -4.65666666666667 Window size x: 14.5785416666667 y: 18.8647916666667
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: -5.82083333333333 -3.254375
+
+4: Line, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3, Val: 1.00541666666667 -0.211666666666667
+
+"A", NP: 320, 238, NS: 10, 18
+5: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: 8.41375 -6.25112938596491
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"B", NP: 111, 193, NS: 12, 18
+6: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: 2.83104166666667 -5.07582236842105
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C", NP: 124, -67, NS: 11, 18
+7: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 3.254375 0.978958333333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+8: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 6 7
+
+9: Area, 1, CN:1, VN:1
+B, W, NbD:130, FD, cm2, GT:0, V, nSt
+Const: 8, Val: -231 245 24498.2, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+10: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 8 9, Val: -288 245 0, A, nP, TP: -7.62, -6.48229166666667,TS: 3.36020833333333, -0.47625
+"Area p1="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+11: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 7 4
+
+12: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 11 4
+
+13: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 7 12, Val: -225 276 227.23, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+14: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 7 12 13, Val: -290 276 0, A, nP, TP: -7.67291666666667, -7.3025,TS: 3.254375, -0.47625
+"Altura p1="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+15: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 4, Val: -4.7625 -3.47718201754386
+
+16: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 15 4
+
+"C(r)", NP: -132, -103, NS: 24, 18
+17: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 16, Val: -3.45673361034165 2.72520833333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+18: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 17 15, Val: -110 299 239.56, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+19: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 17 15 18, Val: -300 299 0, A, nP, TP: -7.9375, -7.91104166666667,TS: 6.56166666666667, -0.47625
+"altura p2=distancia C'(r) a o= "#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+20: Formula, 1, CN:2, VN:1
+B, W, NbD:2, nFD, cm, GT:0, V, nSt
+Const: 9 18, Val: -108 324 204.527, A, P, TP: -2.8575, -8.5725,TS: 1.53458333333333, -0.47625
+2 * a / b
+p: 0, System, S: 0 C: 15 Fa: 0
+
+21: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 20, Val: -296 324 0, nA, nP, TP: -7.83166666666667, -8.5725,TS: 6.72041666666667, -0.47625
+"(2area p1)/distancia(C'(r) O)= "#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+"A(r)", NP: -212, 127, NS: 23, 18
+22: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -5.60916666666667 -3.29893640350877
+p: 0, System, S: 0 C: 3 Fa: 0
+
+23: Ray, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 22 15
+
+"B(r)", NP: -13, 168, NS: 25, 18
+24: Transf, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 23 20
+p: 0, System, S: 0 C: 3 Fa: 0
+
+25: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 4, Val: -6.45583333333333 -3.12069078947368
+
+26: Tr, 0, CN:3, VN:0
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 22 17 24
+
+27: Area, 1, CN:1, VN:1
+B, W, NbD:130, FD, cm2, GT:0, V, nSt
+Const: 26, Val: -210 368 24498.2, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+28: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 26 27, Val: -287 368 0, A, nP, TP: -7.59354166666667, -9.73666666666667,TS: 3.889375, -0.47625
+"Area de p2="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+

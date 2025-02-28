@@ -1,0 +1,274 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Used macro
+
+circulo de apolonio, Círculo de Apolonio
+Icon:
+FFF0FFF0FFF00000
+F0F0F0F0F0F00000
+FFF0FFF0F0F00000
+F0F0F000FFF00000
+0000000000000000
+F000FFF000000000
+F000F0F000000000
+F000F0F000000000
+FFF0FFF000000000
+0000000000000000
+FFF0F0FFF0000000
+F0F0F0F0F0000000
+F0F0F0F0F0000000
+F0F0F0FFF0000000
+0000000000000000
+0000000000000000
+Help:
+"Elegir dos puntos A y B y dos segmentos m y n.
+Se obtiene el lugar geométrico de los puntos cuyas distancias a A y a B están según la razón m/n."
+Mth: 0
+CN:4, ON:18, FN:3, PO:17
+CT:
+point, CS 0, Bl, W, tT, DS:1 1, GT:1, V, nSt
+point, CS 0, Bl, W, tT, DS:1 1, GT:1, V, nSt
+segment, CS 2, V, W, t, DS:1 1, GT:0, V, nSt
+segment, CS 2, V, W, t, DS:1 1, GT:0, V, nSt
+Const:
+Line, Mth:1, 0, 0, CN:2, VN:2, Const: 1 2
+Perp, Mth:0, 0, 0, CN:2, VN:2, Const: 1 9
+Perp, Mth:0, 0, 0, CN:2, VN:2, Const: 2 9
+Mid, Mth:0, 0, 0, CN:2, VN:1, Const: 4 1
+Sym, Mth:0, 0, 0, CN:2, VN:1, Const: 3 12
+Cir, Mth:1, 0, 0, CN:2, VN:2, Const: 1 13
+Mid, Mth:0, 0, 0, CN:2, VN:1, Const: 7 2
+Sym, Mth:0, 0, 0, CN:2, VN:1, Const: 6 15
+Cir, Mth:1, 0, 0, CN:2, VN:2, Const: 2 16
+Int, Mth:1, 0, 33024, CN:2, VN:1, Const: 10 14
+Int, Mth:1, 0, 32768, CN:2, VN:1, Const: 11 17
+Int, Mth:1, 0, 33024, CN:2, VN:1, Const: 11 17
+Line, Mth:1, 0, 0, CN:2, VN:2, Const: 18 20
+Int, Mth:0, 0, 0, CN:2, VN:1, Const: 9 21
+Line, Mth:1, 0, 0, CN:2, VN:2, Const: 18 19
+Int, Mth:0, 1, 0, CN:2, VN:1, Const: 9 23, Bl, W, tT, DS:1 1, GT:1, V, nSt
+Mid, Mth:0, 1, 0, CN:2, VN:1, Const: 22 24, Bl, W, tT, DS:1 1, GT:1, V, nSt
+Cir, Mth:1, 1, 0, CN:2, VN:2, Const: 25 24, Bl, W, t, DS:1 1, GT:0, V, nSt
+
+Figure description:
+
+Window center x: 0 y: 0 Window size x: 19.923125 y: 11.985625
+
+1: Pt, 0, CN:0, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+Val: -2.40770833333333 -3.095625
+
+2: Axes, 0, CN:1, VN:3
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Pt, 0, CN:0, VN:1
+B, W, tT, DS:1 1, GT:2, V, nSt
+Val: -9.78958333333333 4.683125
+
+4: Ray, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3, Val: 1 0
+
+5: Pt/, 0, CN:1, VN:3
+B, W, tT, DS:1 1, GT:2, V, nSt
+Const: 4, Val: -8.5725 4.683125
+
+6: Cir, 0, CN:2, VN:2
+lGr, W, t, DS:5 8, GT:0, V, nSt
+Const: 5 3
+
+"2", NP: -281, -194, NS: 10, 18
+7: Int, 0, CN:3, VN:1
+B, W, tT, DS:1 1, GT:0, V, nSt
+Const: 4 6 3
+p: 0, System, S: 0 C: 15 Fa: 0
+
+8: Cir, 0, CN:2, VN:2
+lGr, W, t, DS:5 8, GT:0, V, nSt
+Const: 7 5
+
+9: Int, 0, CN:3, VN:1
+B, W, tT, DS:1 1, GT:2, V, nSt
+Const: 4 8 5
+
+10: Cir, 0, CN:2, VN:2
+lGr, W, t, DS:5 8, GT:0, V, nSt
+Const: 9 7
+
+11: Int, 0, CN:3, VN:1
+Bl, W, tT, DS:1 1, GT:0, V, nSt
+Const: 4 10 7
+
+12: Cir, 0, CN:2, VN:2
+lGr, W, t, DS:5 8, GT:0, V, nSt
+Const: 11 9
+
+13: Int, 0, CN:3, VN:1
+Bl, W, tT, DS:1 1, GT:0, V, nSt
+Const: 4 12 9
+
+14: Cir, 0, CN:2, VN:2
+lGr, W, t, DS:5 8, GT:0, V, nSt
+Const: 13 11
+
+15: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 5
+
+16: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 9
+
+17: Int, 0, CN:3, VN:1
+B, W, tT, DS:1 1, GT:2, V, nSt
+Const: 4 14 11
+
+18: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 9 17
+
+"1", NP: -348, -194, NS: 10, 18
+19: Mid, 0, CN:1, VN:1
+B, W, tT, DS:1 1, GT:0, V, nSt
+Const: 15
+p: 0, System, S: 0 C: 15 Fa: 0
+
+"3", NP: -162, -193, NS: 10, 18
+20: Mid, 0, CN:1, VN:1
+B, W, tT, DS:1 1, GT:0, V, nSt
+Const: 18
+p: 0, System, S: 0 C: 15 Fa: 0
+
+21: Num, 0, CN:0, VN:1
+B, W, NbD:4, nFD, WU, GT:0, I, nSt
+Val: 16 -180 7, nA, nP, TP: 0.423333333333333, 4.7625,TS: 0.264583333333333, -0.47625
+7
+p: 0, System, S: 0 C: 15 Fa: 0
+
+"B", NP: 180, 98, NS: 12, 18
+22: Transf, 0, CN:2, VN:2
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+Const: 1 21, Val: 7 0
+p: 0, System, S: 0 C: 6 Fa: 0
+
+"A", NP: -102, 98, NS: 10, 18
+23: Transf, 0, CN:2, VN:2
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+Const: 22 21, Val: -7 0
+p: 0, System, S: 0 C: 6 Fa: 0
+
+24: Eq/Co, 1, CN:2, VN:3
+B, W, NbD:4, FD, WU, GT:0, V, nSt
+Const: 22 2, Val: 202 129 0, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+25: Eq/Co, 0, CN:2, VN:3
+B, W, NbD:4, FD, WU, GT:0, V, nSt
+Const: 22 2, Val: 150 129 7, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+26: Text, 0, CN:3, VN:3
+B, W, BTh:4, DS:1 1, GT:0, V, nSt
+Const: 22 25 24, Val: 146 129 0, nA, nP, TP: 3.86291666666667, -3.413125,TS: 2.80458333333333, -0.47625
+"("#, "#)"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+27: Eq/Co, 1, CN:2, VN:3
+B, W, NbD:4, FD, WU, GT:0, V, nSt
+Const: 23 2, Val: -62 128 0, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+28: Eq/Co, 0, CN:2, VN:3
+B, W, NbD:4, FD, WU, GT:0, V, nSt
+Const: 23 2, Val: -114 128 0, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+29: Text, 0, CN:3, VN:3
+B, W, BTh:4, DS:1 1, GT:0, V, nSt
+Const: 23 28 27, Val: -118 128 0, nA, nP, TP: -3.12208333333333, -3.38666666666667,TS: 2.80458333333333, -0.47625
+"("#, "#)"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+30: Cir, 0, CN:2, VN:2
+lGr, W, t, DS:5 8, GT:0, V, nSt
+Const: 22 23
+
+31: Cir, 0, CN:2, VN:2
+lGr, W, t, DS:5 8, GT:0, V, nSt
+Const: 23 22
+
+"C", NP: 47, -117, NS: 11, 18
+32: Int, 0, CN:2, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+Const: 30 31
+p: 0, System, S: 0 C: 6 Fa: 0
+
+33: Tr, 0, CN:3, VN:0
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 23 22 32
+
+Ma: circulo de apolonio, Const: 23 i: 0 22 i: 0 15 i: 0 16 i: 0
+49: Ma R, F No1, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+
+50: Ma R, F No2, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+
+51: Ma R, F No3, VN:2
+B, W, t, DS:1 1, GT:0, V, nSt
+
+Ma: circulo de apolonio, Const: 22 i: 0 32 i: 0 16 i: 0 18 i: 0
+67: Ma R, F No1, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+
+68: Ma R, F No2, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+
+69: Ma R, F No3, VN:2
+B, W, t, DS:1 1, GT:0, V, nSt
+
+Ma: circulo de apolonio, Const: 32 i: 0 23 i: 0 18 i: 0 15 i: 0
+85: Ma R, F No1, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+
+86: Ma R, F No2, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+
+87: Ma R, F No3, VN:2
+B, W, t, DS:1 1, GT:0, V, nSt
+
+88: Int, 32896, CN:2, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+Const: 51 69
+
+89: Int, 32897, CN:2, VN:1
+Bl, W, tT, DS:1 1, GT:1, V, nSt
+Const: 51 69
+
+"P", NP: -3, 174, NS: 11, 18
+90: Int, 32896, CN:2, VN:1
+R, W, tT, DS:1 1, GT:2, V, nSt
+Const: 51 87
+p: 0, System, S: 0 C: 3 Fa: 0
+
+91: Int, 32897, CN:2, VN:1
+R, W, tT, DS:1 1, GT:1, V, nSt
+Const: 51 87
+
+92: Eq/Co, 1, CN:2, VN:3
+B, W, NbD:4, FD, WU, GT:0, V, nSt
+Const: 90 2, Val: 39 193 -1.73205, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+93: Eq/Co, 0, CN:2, VN:3
+B, W, NbD:4, FD, WU, GT:0, V, nSt
+Const: 90 2, Val: -13 193 2, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+94: Text, 0, CN:3, VN:3
+R, W, BTh:4, DS:1 1, GT:0, V, nSt
+Const: 90 93 92, Val: -17 193 0, nA, nP, TP: -0.449791666666667, -5.10645833333333,TS: 2.91041666666667, -0.47625
+"("#, "#)"
+p: 0, System, S: 0 C: 3 Fa: 0
+

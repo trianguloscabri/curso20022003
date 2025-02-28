@@ -1,0 +1,112 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: -7.43479166666667 y: -1.00541666666667 Window size x: 16.2983333333333 y: 9.73666666666667
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: 69, -79, NS: 17, 26
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 1.984375 1.32291666666667
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+"B", NP: -71, 3, NS: 17, 26
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -1.5875 -0.820208333333333
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+"C", NP: 92, 15, NS: 17, 26
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 2.27541666666667 -0.820208333333333
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+6: Tr, 0, CN:3, VN:0
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 3 4 5
+
+7: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 3
+
+8: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 5
+
+"V", NP: -267, 124, NS: 17, 26
+9: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7, Val: -6.79760338345865 -3.94627036340853
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+"Recta  m", NP: -31, 153, NS: 69, 23
+10: Par, 256, CN:2, VN:2
+dG, W, tT, DS:1 1, GT:0, V, nSt
+Const: 9 6
+p: 0, Times New Roman, S: 19 C: 15 Fa: 0
+
+"W", NP: 105, 153, NS: 22, 26
+11: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 10
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+12: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 9 5
+
+13: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 11
+
+"T", NP: -16, 70, NS: 15, 26
+14: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 12 13
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+15: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 14
+
+"M", NP: 10, 32, NS: 21, 26
+16: Int, 1, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 15
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+"M'", NP: -84, 152, NS: 27, 26
+17: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 10 15
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+18: Text, 0, CN:0, VN:1
+B, lBl, BTh:2, DS:1 1, GT:1, V, nSt
+Val: -510 -140 0, nA, nP, TP: -13.49375, 3.70416666666667,TS: 7.19666666666667, -3.095625
+"Paso 1.-
+Al ser la recta m paralela  al lado BC tenemos que los triángulos ABC y AVW son semejantes. En concreto AV/BV=AW/CW  (1)"
+p: 0, Comic Sans MS, S: 16 C: 6 Fa: 0
+
+19: Text, 0, CN:0, VN:1
+B, lBl, BTh:2, DS:1 1, GT:1, V, nSt
+Val: -506 -11 0, nA, nP, TP: -13.3879166666667, 0.291041666666667,TS: 6.985, -3.095625
+"Paso 2.-
+Aplicando el Teorema de Ceva al triángulo ABC con respecto a las cevianas AM,BW y CV, tenemos que:
+AV/BV*BM/CM*CW/AW=1    (2)"
+p: 0, Comic Sans MS, S: 16 C: 6 Fa: 0
+
+20: Text, 0, CN:0, VN:1
+B, lBl, BTh:2, DS:1 1, GT:1, V, nSt
+Val: -509 165 0, nA, nP, TP: -13.4672916666667, -4.365625,TS: 9.78958333333333, -3.70416666666667
+"Paso 3.-
+Usando (1) en la expresión (2), obtenemos la igualdad BM/CM = 1 que quiere decir que el punto M es el punto medio del lado BC, esto es, la recta AM (=recta AT) es la mediana al triángulo por el vértice A"
+p: 0, Comic Sans MS, S: 16 C: 6 Fa: 0
+

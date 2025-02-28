@@ -1,0 +1,182 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: -2.19604166666667 y: 1.16416666666667 Window size x: 16.2983333333333 y: 9.73666666666667
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Num, 0, CN:0, VN:1
+B, W, NbD:2, nFD, WU, GT:0, I, nSt
+Val: -351 -212 10, nA, nP, TP: -9.286875, 5.60916666666667,TS: 0.529166666666667, -0.555625
+10
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+"B", NP: -200, 145, NS: 14, 21
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -4.81541666666667 -3.83645833333333
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+5: Ray, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 4, Val: 1 0
+
+"C", NP: 197, 144, NS: 14, 21
+6: Transf, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 3
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+7: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 6 4
+
+8: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 6
+
+"A", NP: 6, -202, NS: 13, 21
+9: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 8
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+10: Tr, 0, CN:3, VN:0
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 9 6
+
+11: PBiss, 2, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 10
+
+"M", NP: 11, 149, NS: 15, 21
+12: Int, 2, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 10 11
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+13: Pt/, 1, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 10, Val: 0.974646572290267 3.45536603344521
+
+14: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 9 13
+
+15: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 13 14
+
+16: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 14 15
+
+17: Sym, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 15 16
+
+18: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 12 17
+
+19: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 15 18
+
+"M'", NP: -13, -8, NS: 19, 21
+20: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 11 19
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+21: Par, 512, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 20 10
+
+"B'", NP: -119, -1, NS: 18, 21
+22: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 10 21
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+"C'", NP: 125, -4, NS: 18, 21
+23: Int, 1, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 10 21
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+24: Tr, 0, CN:3, VN:0
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 22 9 23
+
+25: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 9 12
+
+26: Perp, 256, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 22 10
+
+"O", NP: -13, -59, NS: 14, 21
+27: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 25 26
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+28: Cir, 0, CN:2, VN:2
+G, W, tT, DS:1 1, GT:0, V, nSt
+Const: 27 20
+
+29: Int, 32770, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 24 28
+
+30: Int, 33026, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 24 28
+
+31: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 23 24
+
+32: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 31 28
+
+33: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 31 28
+
+34: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 26 28
+
+35: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 26 28
+
+"O'", NP: 12, 78, NS: 18, 21
+36: Refl, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 27 21
+p: 0, Arial, S: 16 C: 15 Fa: 1
+
+37: Refl, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 20 21
+
+38: Cir, 0, CN:2, VN:2
+O, W, tT, DS:1 1, GT:0, V, nSt
+Const: 36 37
+
+39: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -324 -126 0, nA, nP, TP: -8.5725, 3.33375,TS: 6.69395833333333, -1.56104166666667
+"Construcción de la figura para el caso del triángulo equilátero ABC de lado l=10 cm"
+p: 0, Arial, S: 16 C: 15 Fa: 1
+

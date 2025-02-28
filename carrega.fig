@@ -1,0 +1,272 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 5.715 y: -3.43958333333333 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 0.449791666666667 -8.493125
+
+2: Axes, 0, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, V, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 4.39208333333333 -3.254375
+
+"T", NP: 266, 44, NS: 10, 18
+4: Cir, 0, CN:1, VN:2
+R, W, tT, DS:1 1, GT:0, V, nSt
+Const: 3, Val: 3.33206968235293
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"A", NP: 1, 208, NS: 10, 18
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:2, V, nSt
+Val: 0.0529166666666667 -5.50333333333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"B", NP: 278, 286, NS: 12, 18
+6: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:2, V, nSt
+Val: 7.35541666666667 -7.56708333333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C", NP: 411, 77, NS: 11, 18
+7: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:2, V, nSt
+Val: 10.7685416666667 -2.01083333333333
+p: 0, System, S: 0 C: 3 Fa: 0
+
+8: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 6
+
+9: Line, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 5, Val: 0.41151272215806 0.911404015517851
+
+10: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 9 4
+
+11: PBiss, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 10 6
+
+12: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 9 4
+
+13: PBiss, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 12 10
+
+14: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 11 13
+
+15: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 14 6
+
+"F", NP: 64, 227, NS: 10, 18
+16: Int, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 8 15 6
+p: 0, System, S: 0 C: 3 Fa: 0
+
+17: Line, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 16, Val: 0.321480574253341 0.946916173891724
+
+18: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 17 4
+
+19: PBiss, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 18 7
+
+20: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 17 4
+
+21: PBiss, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 20
+
+22: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 19 21
+
+23: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 22 18
+
+24: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 16
+
+"H", NP: 78, 221, NS: 12, 18
+25: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 24 23
+p: 0, System, S: 0 C: 3 Fa: 0
+
+26: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 4, Val: 7.69930728907844 -2.84822468964534
+
+27: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 26
+
+28: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 16 27
+
+29: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 16
+
+30: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 26 29
+
+31: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 28 30
+
+32: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 16 31
+
+33: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 8 32
+
+"K", NP: 186, 260, NS: 11, 18
+34: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 8 32
+p: 0, System, S: 0 C: 3 Fa: 0
+
+35: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 34 16
+
+36: Int, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 24 35 16
+
+37: Int, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 8 35 16
+
+38: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 36 37
+
+39: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 34
+
+40: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 38 34
+
+41: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 40
+
+42: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 38 39
+
+43: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 41 42
+
+44: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 43
+
+45: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 3 25
+
+46: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+Const: 45 3
+
+47: Int, 32897, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 44 46
+
+48: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 25 47
+
+49: Int, 32896, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 44 46
+
+50: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 25 49
+
+51: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 50 4
+
+"E", NP: 60, 52, NS: 11, 18
+52: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 50 4
+p: 0, System, S: 0 C: 3 Fa: 0
+
+53: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 52 16
+
+54: Int, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 53 4 52
+
+55: Line, 0, CN:2, VN:2
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 54 7
+
+56: Line, 0, CN:2, VN:2
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 54 5
+
+57: Int, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 56 4 54
+
+58: Line, 0, CN:2, VN:2
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 6 57
+
+59: Int, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 58 4 57
+
+60: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 24 4
+
+61: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 24 4
+
+62: Int, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 55 4 54
+
+63: Tr, 0, CN:3, VN:0
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 54 62 57
+

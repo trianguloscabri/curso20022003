@@ -1,0 +1,70 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 0 y: 0 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: -152, 103, NS: 21, 33
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -3.730625 -2.69875
+p: 0, Times New Roman, S: 27 C: 3 Fa: 0
+
+"C", NP: -147, -133, NS: 20, 33
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -3.730625 2.75166666666667
+p: 0, Times New Roman, S: 27 C: 3 Fa: 0
+
+5: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4
+
+6: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 5
+
+"M", NP: -167, -15, NS: 26, 33
+7: Mid, 0, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5
+p: 0, Times New Roman, S: 27 C: 3 Fa: 0
+
+"B", NP: 113, -134, NS: 20, 33
+8: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6, Val: 3.095625 2.75166666666667
+p: 0, Times New Roman, S: 27 C: 3 Fa: 0
+
+9: Tr, 0, CN:3, VN:0
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 3 4 8
+
+10: Perp, 512, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 9
+
+"D", NP: -34, 17, NS: 21, 33
+11: Int, 2, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 10
+p: 0, Times New Roman, S: 27 C: 3 Fa: 0
+
+12: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 11
+
+13: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 7 11
+
+14: Seg, 0, CN:2, VN:0
+V, W, tT, DS:5 8, GT:0, V, nSt
+Const: 7 11
+

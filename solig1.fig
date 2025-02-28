@@ -1,0 +1,271 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: -2.96333333333333 y: 1.00541666666667 Window size x: 20.7433333333333 y: 11.7210416666667
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"B", NP: -440, 109, NS: 12, 18
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -11.2977083333333 -2.778125
+p: 0, System, S: 0 C: 3 Fa: 0
+
+4: Line, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3, Val: 1 0
+
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: -11.7210416666667 6.35
+
+6: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: -3.96875 6.35
+
+7: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 5 6
+
+"B", NP: -249, -240, NS: 12, 18
+8: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7, Val: -6.588125 6.35
+p: 0, System, S: 0 C: 3 Fa: 0
+
+9: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 4
+
+Ma: Compass, Const: 8 i: 0 6 i: 0 3 i: 0
+12: Ma R, F No1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+"C", NP: -334, 110, NS: 11, 18
+13: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4 12
+p: 0, System, S: 0 C: 3 Fa: 0
+
+Ma: Compass, Const: 5 i: 0 8 i: 0 3 i: 0
+16: Ma R, F No1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+"A", NP: -444, -102, NS: 10, 18
+17: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 16
+p: 0, System, S: 0 C: 3 Fa: 0
+
+18: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 17 9
+
+19: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 13 4
+
+"D", NP: -326, -111, NS: 12, 18
+20: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 18 19
+p: 0, System, S: 0 C: 3 Fa: 0
+
+21: Pol, 0, CN:4, VN:0
+V, Y, t, DS:1 1, GT:1, V, nSt
+Const: 3 17 20 13
+
+22: Area, 0, CN:1, VN:1
+B, W, NbD:136, FD, cm2, GT:0, V, nSt
+Const: 21, Val: -89 -155 19206, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+23: Text, 1, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 21 22, Val: -150 -155 0, A, nP, TP: -3.96875, 4.10104166666667,TS: 4.73604166666667, -0.47625
+"(ABCD) = "#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+24: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: -9.86895833333333 5.37104166666667
+
+25: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 24 7
+
+26: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 25
+
+27: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 6 25
+
+28: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 5 6
+
+29: Refl, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 5 25
+
+"A", NP: -442, -241, NS: 10, 18
+30: Refl, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 29 25
+p: 0, System, S: 0 C: 3 Fa: 0
+
+31: Refl, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 6 25
+
+"C", NP: -150, -239, NS: 11, 18
+32: Refl, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 31 25
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"E", NP: -445, -90, NS: 11, 18
+33: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 21, Val: -11.2977083333333 2.19604166666667
+p: 0, System, S: 0 C: 3 Fa: 0
+
+34: Ray, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 13
+
+35: Int, 2, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 21 34
+
+Ma: Compass, Const: 17 i: 0 33 i: 0 35 i: 0
+38: Ma R, F No1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+39: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 33 21
+
+"F", NP: -322, -101, NS: 10, 18
+40: Int, 2, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 21 39
+p: 0, System, S: 0 C: 3 Fa: 0
+
+41: Pol, 0, CN:4, VN:0
+V, lBl, t, DS:1 1, GT:1, V, nSt
+Const: 17 33 40 20
+
+"H", NP: -320, 108, NS: 12, 18
+42: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 34 38
+p: 0, System, S: 0 C: 3 Fa: 0
+
+43: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 42 34
+
+"G", NP: -312, -83, NS: 12, 18
+44: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 39 43
+p: 0, System, S: 0 C: 3 Fa: 0
+
+45: Pol, 0, CN:4, VN:0
+V, G, t, DS:1 1, GT:1, V, nSt
+Const: 40 44 42 13
+
+46: Area, 1, CN:1, VN:1
+B, W, NbD:137, FD, cm2, GT:0, V, nSt
+Const: 41, Val: -91 -128 594, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+47: Text, 2, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 41 46, Val: -150 -128 0, A, nP, TP: -3.96875, 3.38666666666667,TS: 4.683125, -0.47625
+"(AEFD) = "#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+48: Area, 1, CN:1, VN:1
+B, W, NbD:135, FD, cm2, GT:0, V, nSt
+Const: 45, Val: -91 -104 1128, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+49: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 45 48, Val: -152 -104 0, A, nP, TP: -4.02166666666667, 2.75166666666667,TS: 4.31270833333333, -0.47625
+"(FGHC) = "#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+50: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, I, nSt
+Const: 30 8, Val: -345 -239 194, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+51: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, I, nSt
+Const: 30 8 50, Val: -345 -239 0, nA, nP, TP: -9.128125, 6.32354166666667,TS: 1.53458333333333, -0.47625
+""#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+52: Lgth, 0, CN:2, VN:1
+B, W, NbD:2, FD, cm, GT:0, I, nSt
+Const: 30 32, Val: -296 -239 293, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+53: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, I, nSt
+Const: 30 32 52, Val: -296 -239 0, nA, nP, TP: -7.83166666666667, 6.32354166666667,TS: 1.53458333333333, -0.47625
+""#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+54: Formula, 1, CN:2, VN:1
+B, W, NbD:9, nFD, WU, GT:0, V, nSt
+Const: 50 52, Val: -87 -185 0.662116, A, P, TP: -2.301875, 4.89479166666667,TS: 2.2225, -0.423333333333333
+a / b
+p: 0, System, S: 0 C: 15 Fa: 0
+
+55: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 54, Val: -146 -185 0, nA, nP, TP: -3.86291666666667, 4.89479166666667,TS: 3.83645833333333, -0.47625
+"AB/AC =  "#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+56: Lgth, 0, CN:2, VN:1
+B, W, NbD:9, FD, cm, GT:0, V, nSt
+Const: 17 33, Val: -360 161 6, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+57: Text, 0, CN:3, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 17 33 56, Val: -428 161 0, A, nP, TP: -11.3241666666667, -4.25979166666667,TS: 4.81541666666667, -0.47625
+"AE = CH = "#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+58: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -155 -42 0, nA, nP, TP: -4.10104166666667, 1.11125,TS: 9.86895833333333, -1.32291666666667
+"Mover el punto B para cambiar las dimensiones del rectángulo, manteniendo constante la suma de los lados.
+El área es máxima para AB/AC = 1/2"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+59: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -156 20 0, nA, nP, TP: -4.1275, -0.529166666666667,TS: 7.56708333333333, -0.899583333333333
+"Mover el punto E para cambiar la altura del rectángulo AEFD, igual a la base del FGHC."
+p: 0, System, S: 0 C: 15 Fa: 0
+
+60: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -152 83 0, nA, nP, TP: -4.02166666666667, -2.19604166666667,TS: 10.5039583333333, -2.59291666666667
+"Si disminuimos la altura de ABCD, cuando es el lado mayor, en la cantidad AE, aumentando el lado BC en la misma cantidad, el área retirada (azul) es menor que la añadida (verde). Cuando la altura es el lado menor, ocurre lo contrario. Vemos así que el área máxima se obtiene cuando ABCD es un cuadrado"
+p: 0, System, S: 0 C: 15 Fa: 0
+

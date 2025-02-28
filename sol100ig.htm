@@ -1,0 +1,61 @@
+<html>
+<head>
+<title>Documento sin t&iacute;tulo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body bgcolor="#99CC99" text="#0066CC">
+<p><font size="4">Problema 100</font></p>
+<p><font size="4">Dado un lado l, la altura correspondiente h y el radio de la 
+  circunferencia inscrita, r, construir el tri&aacute;ngulo.</font></p>
+<p><font size="4"><br>
+  Rey Pastor, J. (1905): Revista Trimestral de Matem&aacute;ticas. Zaragoza.(Tomo 
+  V. p. 239)<br>
+  </font></p>
+<p><font size="4">Soluci&oacute;n del profesor Ignacio Larrosa Ca&ntilde;estro 
+  del IES Rafael Dieste. A Coru&ntilde;a (Espa&ntilde;a) (16 de junio de 2003)</font></p>
+<p>&nbsp;</p>
+<p><font size="4">Utilizar&eacute; la letra c para el lado dado. Si los otros 
+  son a y b, se tiene que la superficie S del tri&aacute;ngulo es </font></p>
+<p><font size="4">S = c*h/2 = r*(a + b + c)/2</font></p>
+<p><font size="4">De aqu&iacute; que </font><font size="4">a + b = c*h/r - c</font></p>
+<p>&nbsp;</p>
+<p><font size="4"><img src="sol100ig.gif" width="981" height="613"></font></p>
+<p><font size="4">Por tanto, el&acute;v&eacute;rtice opuesto al lado c se encuentra 
+  en la intersecci&oacute;n de una paralela a c a una distancia h, con la elipse 
+  que tiene por focos los extremos de c y por eje principal (a + b). De aqu&iacute; 
+  se decuce f&aacute;cilmente la construcci&oacute;n. Llamando p = a + b + c al 
+  per&iacute;metro del tri&aacute;ngulo, tenemos</font></p>
+<p><font size="4">c/r = p/h</font></p>
+<p><font size="4">Colocamos sobre un mismo lado de un &aacute;ngulo con extremo 
+  en su v&eacute;rtice O, segmentos de longitud r y h, cuyo otro extremo ser&aacute;n 
+  los puntos R y H, y en el otro lado un segmento de longitud c, con extremo en 
+  P. Trazando por P una paralela al segmento RH, determinamos en el otro lado 
+  el punto Q, de manera que OQ es p y PQ = a + b. Sea M' el punto medio del segmento 
+  PQ.</font></p>
+<p><font size="4">Con centro en el punto medio M del lado c, trazamos la circunferencia 
+  s1 de radio M'P = (a+b)/2 y con centro en B, extremo de c, otra s2 de igual 
+  radio. El punto S en que s2 corta a la perpendicular por M a c, es un v&eacute;rtice<br>
+  secundario de la elipse. Trazamos la circunferencia s3 de centro M y radio MS.</font></p>
+<p><font size="4">Hallamos el punto T en que la paralela a c a una distancia h 
+  corta a s2. Trazamos el rayo MT, que corta a s1 en U. El punto de intersecci&oacute;n 
+  de la paralela a c por T con la perpendicular por U, es el v&eacute;rtice C 
+  del tri&aacute;ngulo buscado.</font></p>
+<p><font size="4">Para que exista el tri&aacute;ngulo, debe ser </font></p>
+<p><font size="4">h &lt; rq((a+b)^2/4 - c^2/4) = c*rq((h/r - 1)^2 - 1)/2</font></p>
+<p><font size="4">h &lt; (c/r)*rq((h - r)^2 - r^2)/2 = (c/(2r))*rq(h^2 - 2hr) 
+  ==&gt;</font></p>
+<p><font size="4">c &gt; 2*r*h/rq(h(h - 2r))</font></p>
+<p><font size="4"><br>
+  </font></p>
+<p>&nbsp; </p>
+<p></p>
+<font size="4"> 
+<applet code="CabriJava.class"  width="1136" height="631" archive="CabriJava.jar">
+  <param name="lang" value="en">
+  <param name="bgcolor" value="#F0F0CC">
+  <param name="file" value="sol100ig.fig">
+</applet>
+</font> 
+</body>
+</html>

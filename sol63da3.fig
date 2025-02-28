@@ -1,0 +1,128 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 0 y: 0 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"P", NP: -207, 83, NS: 12, 28
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -5.10645833333333 -2.460625
+p: 0, Comic Sans MS, S: 19 C: 3 Fa: 0
+
+"M", NP: 153, -144, NS: 19, 28
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 3.75708333333333 3.65125
+p: 0, Comic Sans MS, S: 19 C: 3 Fa: 0
+
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 2.38125 -2.460625
+
+6: Tr, 0, CN:3, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4 5
+
+7: Biss, 0, CN:3, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 3 5 4
+
+8: Biss, 0, CN:3, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 4 3 5
+
+"I", NP: 40, 17, NS: 12, 28
+9: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 8
+p: 0, Comic Sans MS, S: 19 C: 3 Fa: 0
+
+10: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 9 6
+
+"A", NP: -24, -57, NS: 15, 28
+11: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 10
+p: 0, Comic Sans MS, S: 19 C: 3 Fa: 0
+
+12: Cir, 0, CN:2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+Const: 9 11
+
+13: Int, 32768, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 12
+
+14: Int, 33024, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 12
+
+"C", NP: 108, 31, NS: 13, 28
+15: Int, 32769, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 12
+p: 0, Comic Sans MS, S: 19 C: 3 Fa: 0
+
+16: Int, 33025, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 12
+
+"B", NP: 23, 95, NS: 14, 28
+17: Int, 32770, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 12
+p: 0, Comic Sans MS, S: 19 C: 3 Fa: 0
+
+18: Int, 33026, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6 12
+
+19: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 11 17
+
+20: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 5
+
+"Q", NP: 73, 190, NS: 19, 28
+21: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 19 20
+p: 0, Comic Sans MS, S: 19 C: 3 Fa: 0
+
+22: Seg, 0, CN:2, VN:0
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 3 17
+
+23: Seg, 0, CN:2, VN:0
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 21 15
+
+24: Seg, 0, CN:2, VN:0
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 3 21
+
+25: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 20 6
+
+26: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 20 6
+
+"N", NP: 98, 87, NS: 17, 28
+27: Int, 512, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 20 6
+p: 0, Comic Sans MS, S: 19 C: 3 Fa: 0
+

@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Solución problema 62</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body bgcolor="#FFFFFF">
+<p>"96.- Inscribir en un triángulo equilátero de lado 8 cm otro triángulo equilátero. 
+  Calcular el área del inscrito en en los casos en que el vértice del inscrito 
+  disten del dado en 1 cm, 2 cm, ... 7 cm. ¿Cómo varía esta área?, ¿Cuál es el 
+  triángulo inscrito de área mínima?. Trazar el gráfico" </p>
+<p>Soluci&oacute;n.</p>
+<p>Por simetría ambos triángulos tienen el mismo centro y los vértices del triángulo 
+  inscrito DEF distan lo mismo de los vértices más próximos del triángulo de partida 
+  ABC. </p>
+
+<p>El área del triángulo inscrito, (DEF), será el área del triángulo ABC, (ABC), 
+  menos el área de los tres triángulos congruentes AFE, BDF y CED.</p>
+<p> (DEF) = (ABC) - 3*(AFE) = (ABC) - 3((1/2)(AF*AE*sen(60º)) (DEF) = (ABC) - 
+  (3rq(3)/4)(AF*(AB - AF))</p>
+<p> El área (DEF) será mínima cuando el área (AFE) sea máxima. </p>
+<p>Pero para dos cantidades de suma constante, AF + AE = AF + FB = BC, el producto 
+  es máximo cuando son iguales. </p>
+<APPLET CODE="CabriJava.class"  WIDTH="780" HEIGHT="570" archive="CabriJava.jar">
+      <param name="lang" value="en">
+      <param name="bgcolor" value="#F0F0CC">
+      <param name="file" value="solig1.fig">
+</APPLET>
+    <p>Este conocido hecho se ve geométricamente muy bien en la figura 2. </p>
+    <p>Por tanto el área (DEF) es mínima cuando los vértices de este triángulo 
+      son los puntos medios de los lados del ABC, siendo entonces su área un cuarto 
+      de la de aquel. </p>
+    <APPLET CODE="CabriJava.class"  WIDTH="780" HEIGHT="570" archive="CabriJava.jar">
+      <param name="lang" value="en">
+      <param name="bgcolor" value="#F0F0CC">
+      <param name="file" value="solig2.fig">
+</APPLET>
+      <p>Ignacio Larrosa Cañestro IES Rafael Dieste A Coruña (España) </p>
+    
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

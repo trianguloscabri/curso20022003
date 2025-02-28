@@ -1,0 +1,143 @@
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<link rel=Edit-Time-Data href="sol64d_archivos/editdata.mso">
+<link rel=OLE-Object-Data href="sol64d_archivos/oledata.mso">
+<title>Sol:</title>
+<style><!--
+.Section1
+	{page:Section1;}
+-->
+</style>
+</head>
+<body bgcolor="#FFCC99" class="Normal" lang=ES>
+<div class=Section1> 
+  <p><b><u>Problema 64</u></b></p>
+  <p> Sea ABC un triángulo. </p>
+  <p> Por los vértices B y C, por ejemplo, dibujamos las perpendiculares a los 
+    lados AB y AC hasta</p>
+  <p> que corten a las prolongaciones de los lados AC y AB(si es necesario), en 
+    los puntos C´y B´,</p>
+  <p> respectivamente.</p>
+  <p> Por los vértices A y C, trazamos las perpendiculares a los lados BA y BC 
+    hasta que corten a las</p>
+  <p> prolongaciones de los lados (si es necesario) BC y BA en los puntos C'' 
+    y A'' respectivamente.</p>
+  <p> Por los vértices B y A, trazamos las perpendiculares a los lados CB y CA 
+    hasta que corten a las</p>
+  <p> prolongaciones de los lados (si es necesario)CA y CB en los puntos A* y 
+    B* respectivamente.</p>
+  <p> De tal forma, que obtenemos los tres triángulos siguientes :</p>
+  <p> T(A)= AB´C´, T(B)= BA&quot;C&quot; y T(C)= CA*B* .</p>
+  <p> Sean los puntos:</p>
+  <p> A+ = recta(BC) intersección con recta(B' C'), </p>
+  <p> B+ =recta (AC) intersección con recta (A''C'')</p>
+  <p> y C+ =recta (AB) intersección con recta (A* B*).</p>
+  <p> Probar que :</p>
+  <p> a) Los triángulos T(A), T(B) y T(C) son semejantes al triángulo ABC, y O(A)O(B)O(C)(éste</p>
+  <p> formado por los ortocentros de los triángulos T (A), T(B) y T(C)), respectivamente, 
+    y estos dos</p>
+  <p> últimos son congruentes, en posición de Thales.</p>
+  <p> b) Probar si es cierto o no que los puntos A+, B+ y C+ son o no colineales.</p>
+  <br clear=all style='page-break-before:
+always'>
+  <p><b><u>Sol:</u></b></p>
+  <p> a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> Veamos 
+    cómo los triángulos T(A), T(B) y T(C) son semejantes al triángulo ABC.</p>
+  <p>Fijémonos en uno de ellos, p.e. T(A). </p>
+  <p>Por la construcción de los puntos B' y C' tenemos que los puntos B,B',C,C' 
+    son concíclicos. Por tanto el ángulo en B' es el suplementario del suplementario 
+    de C, luego el ángulo en B' es el propio ángulo C. De igual modo el ángulo 
+    en C' es el ángulo B, siendo el ángulo en A común a los dos triángulos ABC 
+    y T(A). Dichos triángulos son semejantes, pues.</p>
+  <p>De igual modo serán semejantes los triángulos T(B) y T(C).</p>
+
+
+
+<APPLET CODE="CabriJava.class"  WIDTH="660" HEIGHT="450" archive="CabriJava.jar">
+      <param name="lang" value="en">
+      <param name="bgcolor" value="#99CCFF">
+      <param name="file" value="sol64d.fig">
+</APPLET>
+
+
+  <p>Por otro lado, tenemos que en el triángulo O(A)O(B)O(C) se verifica la siguiente 
+    propiedad:</p>
+  <p>El punto O(A) pertenece al arco capaz del segmento BC de medida el ángulo 
+    <sub> <img width=144 height=19
+src="sol64d_archivos/image002.gif" v:shapes="_x0000_i1025"> </sub> .</p>
+  <p>De la misma manera, se deduce que el punto O(B) pertenece al arco capaz del 
+    segmento AC de medida el ángulo <sub> <img width=144 height=19
+src="sol64d_archivos/image004.gif" v:shapes="_x0000_i1026"> </sub>  y que el punto 
+    O(C) pertenece al arco capaz del segmento AB de medida el ángulo <sub> <img width=144 height=19
+src="sol64d_archivos/image006.gif" v:shapes="_x0000_i1027"> </sub> . En definitiva, 
+    los puntos O(A), O(B) y O(C) pertenecen a la circunferencia circunscrita al 
+    triángulo ABC. Para probar que los triángulos O(A)O(B)O(C) y ABC son congruentes, 
+    en posición de Thales sería suficiente probar ahora que los puntos A, O y 
+    O(A) están alineados. Y esto es cierto sin más que considerar que el ángulo 
+    A BO(A) es igual a 90º. Por tanto A y O(A) son diametralmente opuestos. Lo 
+    mismo ocurrirá con los pares B,O(B) y C,O(C)</p>
+  <div align=center> 
+    <table border=1 cellspacing=0 cellpadding=0>
+      <tr> 
+        <td valign=top class="Normal"> <p align=center style='text-align:center'> 
+            <img width=572 height=603
+  src="sol64d_archivos/image008.jpg" v:shapes="_x0000_i1028"> </p></td>
+      </tr>
+    </table>
+  </div>
+  <p> b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> Para 
+    probar que, en efecto, los puntos A+,B+ y C+ son colineales haremos uso repetido 
+    del Teorema de Menelao. </p>
+  <p>Probaremos que es cierta la relación  <sub> <img width=137 height=47
+src="sol64d_archivos/image010.gif" v:shapes="_x0000_i1029"> </sub>  y así entonces 
+    por el Teorema de Menelao se tendrá que los puntos A<sup>+</sup>B<sup>+</sup>C<sup>+</sup> 
+    son colineales.</p>
+  <p>Para deducir la validez de dicha expresión, tengamos en cuenta los siguientes 
+    hechos:</p>
+  <p>1.- Los puntos A''C''B<sup>+</sup> pertenecen a las prolongaciones de los 
+    lados del triángulo ABC. Por tanto se verificará: <sub> <img width=139 height=47
+src="sol64d_archivos/image012.gif" v:shapes="_x0000_i1030"> </sub> </p>
+  <p>2.- Los puntos A<sup>*</sup> B<sup>*</sup>C<sup>+</sup> pertenecen a las 
+    prolongaciones de los lados del triángulo ABC. Por tanto se verificará: <sub> 
+    <img width=133 height=47
+src="sol64d_archivos/image014.gif" v:shapes="_x0000_i1031"> </sub> </p>
+  <p>3.- Los puntos A<sup>+</sup> B'C' pertenecen a las prolongaciones de los 
+    lados del triángulo ABC. Por tanto se verificará: <sub> <img width=133 height=47
+src="sol64d_archivos/image016.gif" v:shapes="_x0000_i1032"> </sub> </p>
+  <p>4.- Si multiplicamos las tres relaciones anteriores obtenemos:</p>
+  <p><sub> <img width=365 height=47
+src="sol64d_archivos/image018.gif" v:shapes="_x0000_i1033"> </sub>  </p>
+  <p>o en este otro orden</p>
+  <p><sub> <img width=415 height=53
+src="sol64d_archivos/image020.gif" v:shapes="_x0000_i1034"> </sub> </p>
+  <p>5.- Ahora bien, como:</p>
+  <p><sub> <img width=344 height=53
+src="sol64d_archivos/image022.gif" v:shapes="_x0000_i1035"> </sub>  entonces tenemos 
+    que:</p>
+  <p><sub> <img width=289 height=47
+src="sol64d_archivos/image024.gif" v:shapes="_x0000_i1036"> </sub>           y, 
+    por tanto: <sub> <img width=136 height=47
+src="sol64d_archivos/image026.gif" v:shapes="_x0000_i1037"> </sub> </p>
+  <p>6.- Por otro lado, tenemos que </p>
+  <p><sub> <img width=289 height=47
+src="sol64d_archivos/image028.gif" v:shapes="_x0000_i1038"> </sub>           y, 
+    por tanto:   <sub> <img width=133 height=47
+src="sol64d_archivos/image030.gif" v:shapes="_x0000_i1039"> </sub> </p>
+  <p>7.- Finalmente de las relaciones</p>
+  <p><sub> <img width=415 height=53
+src="sol64d_archivos/image020.gif" v:shapes="_x0000_i1040"> </sub> </p>
+  <p><sub> <img width=136 height=47
+src="sol64d_archivos/image026.gif" v:shapes="_x0000_i1041"> </sub> </p>
+  <p><sub> <img width=133 height=47
+src="sol64d_archivos/image030.gif" v:shapes="_x0000_i1042"> </sub> </p>
+  <p>obtenemos la relación deseada: <sub> <img width=137 height=47
+src="sol64d_archivos/image010.gif" v:shapes="_x0000_i1043"> </sub>  que significa 
+    como sabemos que los puntos A<sup>+</sup>,B<sup>+</sup> y C<sup>+</sup> están 
+    alineados</p>
+  <p><b>F. Damián Aranda Ballesteros. Profesor del IES Blas Infante (C&oacute;rdoba)</b></p>
+  </div>
+</body>
+</html>

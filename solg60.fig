@@ -1,0 +1,70 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: -4.15395833333333 y: -0.714375 Window size x: 26.67 y: 16.8275
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: -130, 13, NS: 10, 16
+3: Pt, 0, CN:0, VN:1
+Bl, W, t, DS:1 1, GT:2, V, nSt
+Val: -3.12208333333333 -0.3175
+p: 0, Arial, S: 11 C: 6 Fa: 0
+
+"B", NP: 51, -2, NS: 9, 16
+4: Pt, 0, CN:0, VN:1
+Bl, W, t, DS:1 1, GT:2, V, nSt
+Val: 1.21708333333333 -0.3175
+p: 0, Arial, S: 11 C: 6 Fa: 0
+
+5: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4
+
+"M", NP: -34, 15, NS: 10, 16
+6: Mid, 0, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5
+p: 0, Arial, S: 11 C: 3 Fa: 0
+
+"g", NP: 22, -68, NS: 8, 16
+7: Cir, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 6 3
+p: 0, Arial, S: 11 C: 12 Fa: 0
+
+8: Perp, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 6 5
+
+"N", NP: -33, -86, NS: 9, 16
+9: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 7
+p: 0, Arial, S: 11 C: 3 Fa: 0
+
+"O", NP: -31, -46, NS: 10, 16
+10: Mid, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 6
+p: 0, Arial, S: 11 C: 3 Fa: 0
+
+11: Perp, 0, CN:2, VN:2
+lGr, W, t, DS:1 1, GT:0, V, nSt
+Const: 10 8
+
+"C", NP: -116, -48, NS: 9, 16
+12: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:2, V, nSt
+Const: 11 7
+p: 0, Arial, S: 11 C: 3 Fa: 0
+
+13: Tr, 0, CN:3, VN:0
+R, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4 12
+

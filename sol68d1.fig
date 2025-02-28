@@ -1,0 +1,90 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 1.13770833333333 y: -2.59291666666667 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: 107, -18, NS: 17, 26
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 2.619375 0.185208333333333
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+"B", NP: -39, 64, NS: 17, 26
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -0.291041666666667 -1.93145833333333
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+"C", NP: 128, 68, NS: 17, 26
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: 3.254375 -1.93145833333333
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+6: Tr, 0, CN:3, VN:0
+G, W, tT, DS:1 1, GT:0, V, nSt
+Const: 3 4 5
+
+"M", NP: 59, 78, NS: 21, 26
+7: Mid, 1, CN:1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 6
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+"Recta s", NP: -25, 224, NS: 68, 26
+8: Line, 0, CN:2, VN:2
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 3 7
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+"P", NP: 35, 115, NS: 16, 26
+9: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8, Val: 0.955476562499995 -2.91041666666667
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+10: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 9
+
+11: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 9 5
+
+12: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4
+
+13: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 5
+
+"Q", NP: 167, 182, NS: 18, 26
+14: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 10 13
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+"T", NP: -202, 184, NS: 15, 26
+15: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 11 12
+p: 0, Charlesworth, S: 21 C: 3 Fa: 1
+
+16: Line, 0, CN:2, VN:2
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 15 14
+
+17: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -234 -63 0, nA, nP, TP: -6.19125, 1.666875,TS: 6.08541666666667, -0.687916666666667
+"QT es paralela al lado BC"
+p: 0, Charlesworth, S: 21 C: 15 Fa: 1
+

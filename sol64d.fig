@@ -1,0 +1,237 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Used macro
+
+Circunferencia Circunscrita, no name
+Icon:
+0000000000000000
+0000063333000000
+0003360000330000
+0030606000003000
+0300600600000300
+0300600060000300
+3006000006000030
+3006000306000030
+3006003330600030
+3060000300060030
+3060000000006030
+0360000000000600
+0666666666666300
+0030000000003000
+0003300000330000
+0000033333000000
+Help:
+"Seleccione un triángulo (o tres puntos) para construir la circunferencia que pasa por los tres vértices."
+Mth: 0
+CN:1, ON:4, FN:2, PO:3
+CT:
+triangle, CS 3, P, W, t, DS:1 1, GT:0, V, nSt
+Const:
+PBiss, Mth:1, 0, 2, CN:1, VN:2, Const: 4
+PBiss, Mth:1, 0, 0, CN:1, VN:2, Const: 4
+Int, Mth:0, 1, 0, CN:2, VN:1, Const: 5 6, R, W, t, DS:1 1, GT:1, V, nSt
+Cir, Mth:1, 1, 0, CN:2, VN:2, Const: 7 1, Bl, W, t, DS:1 1, GT:0, V, nSt
+Mth: 1
+CN:3, ON:5, FN:2, PO:4
+CT:
+point, CS 0, R, W, t, DS:1 1, GT:1, V, nSt
+point, CS 0, R, W, t, DS:1 1, GT:1, V, nSt
+point, CS 0, R, W, t, DS:1 1, GT:1, V, nSt
+Const:
+Tr, Mth:0, 0, 0, CN:3, VN:4, Const: 1 2 3
+PBiss, Mth:1, 0, 2, CN:1, VN:2, Const: 4
+PBiss, Mth:1, 0, 0, CN:1, VN:2, Const: 4
+Int, Mth:0, 1, 0, CN:2, VN:1, Const: 5 6, R, W, t, DS:1 1, GT:1, V, nSt
+Cir, Mth:1, 1, 0, CN:2, VN:2, Const: 7 1, Bl, W, t, DS:1 1, GT:0, V, nSt
+
+Figure description:
+
+Window center x: -6.85270833333333 y: -3.12208333333333 Window size x: 16.2983333333333 y: 9.73666666666667
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+"A", NP: -244, 17, NS: 18, 31
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -6.270625 -1.05833333333333
+p: 0, Comic Sans MS, S: 21 C: 4 Fa: 0
+
+"B", NP: -292, 78, NS: 15, 31
+4: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -7.381875 -2.16958333333333
+p: 0, Comic Sans MS, S: 21 C: 4 Fa: 0
+
+"C", NP: -219, 78, NS: 15, 31
+5: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -5.76791666666667 -2.16958333333333
+p: 0, Comic Sans MS, S: 21 C: 4 Fa: 0
+
+6: Tr, 0, CN:3, VN:0
+R, Y, t, DS:1 1, GT:1, V, nSt
+Const: 3 4 5
+
+7: Perp, 0, CN:2, VN:2
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 4 6
+
+8: Perp, 512, CN:2, VN:2
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 5 6
+
+9: Line, 0, CN:2, VN:2
+B, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 4
+
+10: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 5
+
+"B'", NP: -330, 138, NS: 23, 31
+11: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 8 9
+p: 0, Comic Sans MS, S: 21 C: 4 Fa: 0
+
+"C'", NP: -181, 196, NS: 23, 31
+12: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 10
+p: 0, Comic Sans MS, S: 21 C: 4 Fa: 0
+
+13: Perp, 0, CN:2, VN:2
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 3 9
+
+14: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 4 5
+
+"C''", NP: -185, 60, NS: 31, 31
+15: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 13 14
+p: 0, Comic Sans MS, S: 21 C: 4 Fa: 0
+
+16: Perp, 0, CN:2, VN:2
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 5 14
+
+"A''", NP: -210, -4, NS: 34, 31
+17: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 9 16
+p: 0, Comic Sans MS, S: 21 C: 4 Fa: 0
+
+18: Perp, 0, CN:2, VN:2
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 4 14
+
+"A*", NP: -306, -60, NS: 28, 31
+19: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 18 10
+p: 0, Comic Sans MS, S: 21 C: 4 Fa: 0
+
+20: Perp, 0, CN:2, VN:2
+V, W, t, DS:5 8, GT:0, V, nSt
+Const: 3 10
+
+"B*", NP: -333, 83, NS: 25, 31
+21: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 20 14
+p: 0, Comic Sans MS, S: 21 C: 4 Fa: 0
+
+22: Tr, 0, CN:3, VN:0
+R, W, tT, DS:1 1, GT:0, V, nSt
+Const: 3 11 12
+
+23: Tr, 0, CN:3, VN:0
+dG, W, tT, DS:1 1, GT:0, V, nSt
+Const: 4 17 15
+
+24: Tr, 0, CN:3, VN:0
+Bl, W, tT, DS:1 1, GT:0, V, nSt
+Const: 5 19 21
+
+Ma: Circunferencia Circunscrita, Const: 3 i: 0 17 i: 0 15 i: 0
+28: Ma R, F No1, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+
+29: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 17 15
+
+"B+", NP: -81, 363, NS: 25, 31
+30: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 10 29
+p: 0, Comic Sans MS, S: 21 C: 4 Fa: 0
+
+31: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 11 12
+
+"A+", NP: -480, 78, NS: 28, 31
+32: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 14 31
+p: 0, Comic Sans MS, S: 21 C: 4 Fa: 0
+
+33: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 18 24
+
+34: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 33 21
+
+35: Line, 0, CN:2, VN:2
+Br, W, tT, DS:1 1, GT:0, V, nSt
+Const: 30 32
+
+"C+", NP: -365, 174, NS: 25, 31
+36: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 34 9
+p: 0, Comic Sans MS, S: 21 C: 4 Fa: 0
+
+"O(A)", NP: -272, 105, NS: 28, 18
+37: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 7 8
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"O(B)", NP: -229, 42, NS: 30, 18
+38: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 13 16
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"O(C)", NP: -291, 38, NS: 29, 18
+39: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 18 20
+p: 0, System, S: 0 C: 3 Fa: 0
+
+40: Tr, 0, CN:3, VN:0
+V, W, tT, DS:1 1, GT:0, V, nSt
+Const: 39 38 37
+
+Ma: Circunferencia Circunscrita, Const: 39 i: 0 38 i: 0 37 i: 0
+"O", NP: -258, 62, NS: 12, 18
+44: Ma R, F No1, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+p: 0, System, S: 0 C: 3 Fa: 0
+
+45: Ma R, F No2, VN:2
+Bl, W, t, DS:1 1, GT:0, V, nSt
+

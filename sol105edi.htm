@@ -1,0 +1,110 @@
+<html>
+<head>
+<title>Documento sin t&iacute;tulo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body>
+Problema 105.
+<p>En el desierto del Sahara y en tres puntos A, B, C, que forman los v&eacute;rtices 
+  de un tri&aacute;ngulo equil&aacute;tero de 700 km de lado, se encuentran tres 
+  veh&iacute;culos cuyas velocidades respectivas son de 20 km/h, 40 km/h y 60 
+  km/h, comunicados por radio con el centro de operaciones, reciben la orden de 
+  partir a reunirse lo antes posible. &iquest;D&oacute;nde est&aacute; situado 
+  el punto de la reuni&oacute;n? (las motos siempre est&aacute;n en movimiento, 
+  precisi&oacute;n del editor) </p>
+<p>&nbsp;</p>
+<p>Aproximaci&oacute;n del editor al problema, con conjeturas, an&aacute;lisis 
+  y consideraciones.</p>
+<p>1.- &iquest;Cu&eacute;l es el lugar geom&eacute;trico de los puntos donde pueden 
+  reunirse, por ejemplo, las motos de 40 km/h y 60 km/h?</p>
+<p>Es decir, dados dos puntos A y B del plano, &iquest;cu&aacute;les son los puntos 
+  P del plano para los que 3 AP = 2 BP ?</p>
+<p>Sobre la recta AB hay dos de tales puntos, uno V interior a AB y otro U exterior 
+  al segmento. </p>
+<p>Pues bien la circunferencia dedi&aacute;metro VU es el lugar geom&eacute;trico 
+  pedido.</p>
+<p><img src="arriero1.JPG" width="887" height="657"> </p>
+<p>Sea P un punto de la circunferencia. Tracemos PU y PV. Son perpendiculares, 
+  por ser UV di&aacute;metro, primera condici&oacute;n necesaria para ser PU y 
+  PV bisectrices exterior e interior del &aacute;ngulo APB. </p>
+<p>Tracemos PA y PB. Por ser 3 AU = 2 BU , y 3 AV = 2 BV, es AU/BU = AV/BV= 2/3, 
+  tenemos la segunda concici&oacute;n necesaria para que sean PU y PV las bisectrices 
+  exterior e interior de APB (ver la <a href="sol/Capponi.html" target="_parent">soluci&oacute;n 
+  del profesor Capponi del problema 1</a> de esta colecci&oacute;n y la <a href="sol/sol97dam.htm" target="_parent">soluci&oacute;n 
+  del 97 del profesor Aranda</a>).</p>
+<p>As&iacute; pues, PA/PB = 2/3, y 3PA=2PB, cqd. Adem&aacute;s, son los &uacute;nicos 
+  puntos del plano que cumplen la propiedad.</p>
+<p>2&ordm; Luego, si consideramos las tres motos, tendremos la figura:</p>
+<p>&nbsp;</p>
+<p><img src="arriero2.JPG" width="991" height="657"></p>
+<p>Haciendo un planteamiento proporcional, se obtienen los datos de la figura, 
+  que coinciden con las soluciones aportadas por el profesor Aranda en su soluci&oacute;n.</p>
+  
+  
+<applet code="CabriJava.class" width="957" height="552" archive="CabriJava.jar" align="left">
+  <param name="lang" value="all">
+  <param name="bgcolor" value="#FFFFFF">
+  <param name="file" value="arriero.fig">
+</applet>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>2&ordm;.- Hip&oacute;tesis a corroborar: Las tres circunferencias son tangentes. 
+  Sus centros est&aacute;n alineados. Veamos lo segundo</p>
+<p>Sean A (00), B( a, 0), C( a/2, a sqr (3)/2). Tomando por ra&iacute;z sqr.</p>
+<p>V tiene por coordenadas (2/5 a, 0), y U (-2a,0), luego el primer centro es 
+  (-4/5 a, 0), que corresponde a la circunferencia dibujada en gris.</p>
+<p>Los puntos sobre la recta BC son de coordenadas (5a/8, a3 sqr (3)/8), (a/4, 
+  3 a sqr (3) /4), </p>
+<p>y el centro de la segunda es (7 a /16,.9 a sqr (3)/16), que corresponde a la 
+  circunferencia dibujada a trazos rojos.</p>
+<p>Los puntos correspondientes a la tercera circunferencia son: (a/3, a sqr (a)/3), 
+  y (a, a sqr (3)), </p>
+<p>siendo el centro de la misma, dibujada a trazos azules, (2 a/3, 2a sqr(3)/3).</p>
+<p>Los puntos (-4/5 a, 0), (7 a /16,.9 a sqr (3)/16), y (2 a/3, 2a sqr(3)/3) est&aacute;n 
+  alineados, como se puede comprobar, ya que </p>
+<p>las correspondientes razones de las diferencias de coordenadas son iguales 
+  a 32/27.</p>
+<p>Para contrastar que son tangentes, habr&iacute;a que ver que la suma o la diferencia 
+  de los radios (seg&uacute;n sean exteriores o interiores) coincide con la distancia 
+  entre los centros. </p>
+<p>As&iacute;, tomando dos decimales y en el tri&aacute;ngulo de 700k de lado, 
+  los radios son: </p>
+<p>466,67 km la azul</p>
+<p>840 km la gris </p>
+<p>262,50 km la roja.</p>
+<p>Y las distancias de los centros son:</p>
+<p>1102,50 km</p>
+<p>204,17 km. lo que demuestra la tangencia de las circunferencias.</p>
+<p>&nbsp;</p>
+<p>Consideraciones: </p>
+<p>- Creo que es sorprendente que se encuentren &quot;fuera&quot; del tri&aacute;ngulo.</p>
+<p>- &iquest;para qu&eacute; velocidades se encontrar&aacute;n &quot;dentro&quot;?</p>
+<p>- La generalizaci&oacute;n de la</p>
+<p> &quot;mediatriz&quot;, es decir, el lugar de los puntos situados a la misma 
+  distancia de dos dados, (recta perpendicular en su punto medio)</p>
+<p>a </p>
+<p>&quot;lugar de los puntos situados a una distancia proporcional a dos dados&quot;, 
+  (circunferencia de di&aacute;metro los puntos que cumplen la condici&oacute;n 
+  sobre la recta inicial,</p>
+<p>es un tema geom&eacute;trico de gran inter&eacute;s, puesto que la &quot;generalizaci&oacute;n&quot; 
+  es uno de los temas de mayor importancia en matem&aacute;icas.</p>
+<p>&nbsp;</p>
+<p>Ricardo Barroso Campos Did&aacute;ctica de las Matem&aacute;ticas Universidad 
+  de Sevilla.</p>
+</body>
+</html>

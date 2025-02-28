@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Documento sin t&iacute;tulo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+
+<body bgcolor="#99CCFF">
+Problema 66. 
+<p>Dado un tri&aacute;ngulo cualquiera circunscribir en &eacute;l el tri&aacute;ngulo 
+  equil&aacute;tero de &aacute;rea m&aacute;xima.<br>
+</p>
+<p>Fern&aacute;ndez Garc&iacute;a, F.R. (2001): &quot;Optimizaci&oacute;n Multiobjetivo. 
+  Una perspectiva personal&quot;. En Actas del Encuentro de Matem&aacute;tcos 
+  Andaluces. (Volumen 1). Conferencias Plenarias y Semblanzas. Universidad de 
+  Sevilla, Fundaci&oacute;n El Monte, Universidad de C&oacute;rdoba, Sadiel. Sevilla 
+  (p&aacute;g 78-79)</p>
+<p> <br>
+  Soluci&oacute;n de Ricardo Barroso Campos. Profesor del Departamento de Did&aacute;ctica 
+  de las Matem&aacute;ticas. Universidad de Sevilla (Espa&ntilde;a) </p>
+<p><font color="#408080" size="+2">Sea ABC un tri&aacute;ngulo cualquiera. </font></p>
+<p><font color="#408080" size="+2">Dado que se pide circunscribir en &eacute;l 
+  un tri&aacute;ngulo equil&aacute;tero, tracemos los arcos capaces de 60&ordm; 
+  respecto de los tres lados. Ser&aacute;n aquellos desde los que el centro de 
+  la circunferencia los vea bajo 120&ordm;, por lo que trazamos desde cada v&eacute;rtice 
+  dos giros de 120&ordm;, tomando sus puntos de intersecci&oacute;n como centro 
+  de los arcos.</font></p>
+<p><font color="#408080" size="+2">Una vez construidos, tracemos por un punto 
+  cualquiera D del arco correspondiente de AB las rectas DA y DB, que cortar&aacute;n, 
+  respectivamente, a los arcos de BC en E y de CA en F. </font></p>
+<p><img src="66ed1.JPG" width="818" height="381"></p>
+<p>&nbsp;</p>
+<p><font color="#FF8000"><em><font size="+2">Evidentemente, DEF es un tri&aacute;ngulo 
+  que cumple lo pedido, puesto que al ser CEA=60&ordm; y BFC=60&ordm;, es equil&aacute;tero. 
+  &Uacute;nicamente queda por constrastar el hecho de estar alineados E,C, y F.</font></em></font></p>
+<p><font size="+2"><em><font color="#FF8000"> Es: BCE=180&ordm;-CEB-EBC=180&ordm;-60&ordm;-(180&ordm;-ABC-ABD)=ABC+ABD-60&ordm;.</font></em></font></p>
+<p><font size="+2"><em><font color="#FF8000">tambi&eacute;n: ACF= 180&ordm;-AFC-CAF=180&ordm;-60&ordm;-(180&ordm;-BAD-BAC)=BAD+BAC-60&ordm;.</font></em></font></p>
+<p><font size="+2"><em><font color="#FF8000">De donde: BCE+BCA+ACF=ABC+ABD-60&ordm;+BCA+BAD+BAC-60&ordm;= 
+  (ABC+BCA+BAC)+(ABD+BAD-60&ordm;-60&ordm;)=</font></em></font></p>
+<p><font size="+2"><em><font color="#FF8000">180&ordm;+ (180&ordm;-ADB-60&ordm;-60&ordm;)=180&ordm; 
+  c.q.d.</font></em></font></p>
+<p> <font size="+2"><em><font color="#FF8000"><img src="66ed2.JPG" width="818" height="381"></font></em></font></p>
+<p><font size="+2"><em><font color="#FF8000"><strong>As&iacute;, pues, tendermos 
+  infinitos tri&aacute;ngulos equil&aacute;teros que cumplen el ser circunscritos 
+  al original.</strong></font></em></font></p>
+<p><strong><font size="+2"><em><font color="#FF8000">Evidentemente, todos ellos 
+  son semejantes entre s&iacute;, por lo que tendr&aacute; mayor &aacute;rea el 
+  de lado mayor. </font></em></font></strong></p>
+<p><strong><font size="+2"><em><font color="#FF8000">As&iacute;, pues, el problema 
+  ahora es dado un tri&aacute;ngulo ABC, tracemos por AC y AB arcos capaces de 
+  60&ordm;, y hallemos el segmento FAD de mayor longitud. Para generalizar, construyamos 
+  cualquier tri&aacute;ngulo ABC.</font></em></font></strong></p>
+<p><strong><font size="+2"><em><font color="#FF8000">Construyamos los tri&aacute;ngulos 
+  equil&aacute;teros hacia fuera ACB' y BCA'y las dos circunferencias circunscritas 
+  a los mismos.</font></em></font></strong></p>
+<p><strong><font size="+2"><em><font color="#FF8000">Se tiene que BB' y CC' se 
+  cortan en el punto de <a href="http://www.pdipas.us.es/r/rbarroso/trianguloscabri/problemas1314.htm">Fermat</a>.</font></em></font></strong></p>
+<p><img src="66ed3.JPG" width="818" height="381"></p>
+<p><font color="#CC6600" size="+2" face="Arial, Helvetica, sans-serif"><strong>Consideremos 
+  el tri&aacute;ngulo FDFermat. Al recorrer F el arco correspondiente de la circunferencia 
+  circuncrita a ACB', los &aacute;ngulos</strong></font></p>
+<p><strong><font color="#CC6600" size="+2" face="Arial, Helvetica, sans-serif">AF(Fermat)=DF(Fermat), 
+  y AD(Fermat)=FD(Fermat), permanecen constantes, pues abarcan el mismo arco A(Fermat) 
+  de las correspondientes circunferencias. Es decir, los infinitos tri&aacute;ngulos 
+  FD(Fermat) son semejantes. Luego, si tomamos el lado D(Fermat), sobre la circunfrencia 
+  circunscrita a CAB', el lado mayor est&aacute; sobre el di&aacute;metro, de 
+  lo que se concluye que,</font></strong></p>
+<p><strong><font color="#669900" size="+2" face="Verdana, Arial, Helvetica, sans-serif">dado 
+  un tri&aacute;ngulo cualquiera, el tri&aacute;ngulo equil&aacute;tero circunscrito 
+  de mayor &aacute;era es el que se construye trazando las tres circunferencias 
+  tales que abarquen en un arco de 60&ordm; cada lado, y desde el punto com&uacute;n 
+  a las tres, trazando los di&aacute;metros correspondientes. </font></strong></p>
+<APPLET CODE="CabriJava.class"  WIDTH="880" HEIGHT="570" archive="CabriJava.jar">
+      <param name="lang" value="en">
+      <param name="bgcolor" value="#FFFFF">
+      <param name="file" value="66ed.fig">
+</APPLET>
+</body>
+</html>

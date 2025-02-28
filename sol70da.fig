@@ -1,0 +1,314 @@
+FIGURE CabriII vers. MS-Windows 1.0
+
+Window center x: 2.51354166666667 y: -4.39208333333333 Window size x: 20.7433333333333 y: 12.3825
+
+1: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Val: 0 0
+
+2: Axes, 1, CN:1, VN:3
+Gr, W, t, DS:1 1, GT:0, I, nSt
+Const: 1, Val: 1 0, 0 1
+
+3: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -6.61458333333333 1.13770833333333
+
+4: Ray, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3, Val: 5.60916666666667 -0.0529166666666667
+
+"a", NP: -163, -59, NS: 10, 18
+5: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 4, Val: -4.23333333333333 1.11524371069182
+p: 0, System, S: 0 C: 3 Fa: 0
+
+6: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 5
+
+7: Lgth, 0, CN:1, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 6, Val: 27 56 90.004, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+8: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 6 7, Val: 11 56 0, A, nP, TP: 0.291041666666667, -1.48166666666667,TS: 1.95791666666667, -0.47625
+"a="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+9: Num, 0, CN:0, VN:1
+B, W, NbD:2, nFD, WU, GT:0, V, nSt
+Val: 28 23 1.21, A, nP, TP: 0.740833333333333, -0.608541666666667,TS: 0.740833333333333, -0.423333333333333
+1.21
+p: 0, System, S: 0 C: 15 Fa: 0
+
+10: Text, 0, CN:1, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 9, Val: 13 7 0, nA, nP, TP: 0.343958333333333, -0.185208333333333,TS: 6.50875, -0.899583333333333
+"Razón de la Progresión geométrica=k
+k="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+"b", NP: -140, -59, NS: 10, 18
+11: Dil, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 5 3 9
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"c", NP: -122, -59, NS: 9, 18
+12: Dil, 0, CN:3, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 11 3 9
+p: 0, System, S: 0 C: 3 Fa: 0
+
+"C", NP: -225, 175, NS: 11, 18
+13: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -5.68854166666667 -4.445
+p: 0, System, S: 0 C: 3 Fa: 0
+
+14: Ray, 0, CN:1, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 13, Val: 1 0
+
+15: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 11
+
+16: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 3 12
+
+Ma: Compass, Const: 6 i: 0 13 i: 0
+19: Ma R, F No1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+"B", NP: -130, 171, NS: 12, 18
+20: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 14 19
+p: 0, System, S: 0 C: 3 Fa: 0
+
+21: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 13 20
+
+Ma: Compass, Const: 15 i: 0 13 i: 0
+24: Ma R, F No1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+Ma: Compass, Const: 16 i: 0 20 i: 0
+27: Ma R, F No1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+"A", NP: -204, 38, NS: 10, 18
+28: Int, 1, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 24 27
+p: 0, System, S: 0 C: 3 Fa: 0
+
+29: Tr, 0, CN:3, VN:0
+dG, G, t, DS:1 1, GT:1, V, nSt
+Const: 13 28 20
+
+30: Lgth, 0, CN:1, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 15, Val: 56 74 108.905, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+31: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 15 30, Val: 11 74 0, A, nP, TP: 0.291041666666667, -1.95791666666667,TS: 2.72520833333333, -0.47625
+"b=k*a="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+32: Lgth, 0, CN:1, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 16, Val: 56 90 131.775, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+33: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 16 32, Val: 12 90 0, A, nP, TP: 0.3175, -2.38125,TS: 2.69875, -0.47625
+"c=k*b="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+34: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 28 13
+
+35: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 13 20
+
+36: Line, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 28 20
+
+37: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 13 36
+
+38: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 20 34
+
+39: Perp, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 28 35
+
+40: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 39 35
+
+41: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 37 36
+
+42: Int, 0, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 34 38
+
+43: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 40 28
+
+44: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 41 13
+
+45: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 42 20
+
+Ma: Compass, Const: 44 i: 0 20 i: 0
+48: Ma R, F No1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+49: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 14 48
+
+50: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 20 49
+
+Ma: Compass, Const: 45 i: 0 20 i: 0
+53: Ma R, F No1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+Ma: Compass, Const: 43 i: 0 49 i: 0
+56: Ma R, F No1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+57: Int, 1, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 53 56
+
+58: Tr, 0, CN:3, VN:0
+dG, G, t, DS:1 1, GT:1, V, nSt
+Const: 20 57 49
+
+59: Pt, 0, CN:0, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Val: -6.61458333333333 0.3175
+
+60: Par, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, I, nSt
+Const: 59 4
+
+61: Pt/, 0, CN:1, VN:3
+R, W, t, DS:1 1, GT:1, I, nSt
+Const: 60, Val: 7.93685247810353 0.180222303665681
+
+62: Ray, 0, CN:2, VN:2
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 59 61
+
+Ma: Compass, Const: 50 i: 0 59 i: 0
+65: Ma R, F No1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+"hc", NP: -180, -8, NS: 17, 18
+66: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 62 65
+p: 0, System, S: 0 C: 3 Fa: 0
+
+67: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 59 66
+
+Ma: Compass, Const: 45 i: 0 59 i: 0
+70: Ma R, F No1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+"hb", NP: -163, -8, NS: 18, 18
+71: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 62 70
+p: 0, System, S: 0 C: 3 Fa: 0
+
+72: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 59 71
+
+Ma: Compass, Const: 43 i: 0 59 i: 0
+75: Ma R, F No1, VN:2
+Bl, W, t, DS:1 1, GT:0, I, nSt
+
+"ha", NP: -143, -7, NS: 18, 18
+76: Int, 256, CN:2, VN:1
+R, W, t, DS:1 1, GT:1, V, nSt
+Const: 62 75
+p: 0, System, S: 0 C: 3 Fa: 0
+
+77: Seg, 0, CN:2, VN:0
+V, W, t, DS:1 1, GT:0, V, nSt
+Const: 59 76
+
+78: Lgth, 0, CN:1, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 67, Val: 187 56 73.7282, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+79: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 67 78, Val: 164 56 0, A, nP, TP: 4.33916666666667, -1.48166666666667,TS: 2.143125, -0.47625
+"hc="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+80: Lgth, 0, CN:1, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 72, Val: 224 69 89.2111, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+81: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 72 80, Val: 164 69 0, A, nP, TP: 4.33916666666667, -1.825625,TS: 3.12208333333333, -0.47625
+"hb=k*hc="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+82: Lgth, 0, CN:1, VN:1
+B, W, NbD:2, FD, cm, GT:0, V, nSt
+Const: 77, Val: 229 84 107.945, A, P
+p: 0, System, S: 0 C: 15 Fa: 0
+
+83: Text, 0, CN:2, VN:3
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Const: 77 82, Val: 168 84 0, A, nP, TP: 4.445, -2.2225,TS: 3.14854166666667, -0.47625
+"ha=k*hb="#"
+p: 0, System, S: 0 C: 15 Fa: 0
+
+84: Text, 0, CN:0, VN:1
+B, W, BTh:2, DS:1 1, GT:0, V, nSt
+Val: -227 193 0, nA, nP, TP: -6.00604166666667, -5.10645833333333,TS: 16.2189583333333, -3.70416666666667
+"Si S=Area del triángulo ABC, será S=1/2*a*ha=1/2*b*hb=1/2*c*hc.
+Por otro lado si los lados a, b=k*a y c=k*b están en progresión geométrica entonces: S=1/2*a*ha=1/2*k*a*hb=1/2*k^2*a*hc. 
+Luego se tendrá que: hb=k*hc y ha=k*hb=k^2*hc. 
+Entonces el triángulo de lados a, b y c es semejante al triángulo de lados hc, hb y ha."
+p: 0, Comic Sans MS, S: 16 C: 3 Fa: 1
+
